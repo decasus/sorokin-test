@@ -1,0 +1,68 @@
+import { StyleSheet } from 'react-native';
+
+export default StyleSheet.create({
+  container: {
+    alignSelf: 'center',
+    alignItems: 'center',
+    backgroundColor: '#FFFFFF',
+    borderBottomColor: '#D9D9D9',
+    borderBottomWidth: StyleSheet.hairlineWidth,
+    height: 44,
+    justifyContent: 'center',
+    width: 375,
+  },
+  title: {
+    color: '#111111',
+    fontSize: 17,
+    fontWeight: '600',
+    maxWidth: '52%',
+    textAlign: 'center',
+  },
+  backButton: {
+    alignItems: 'center',
+    flexDirection: 'row',
+    height: 44,
+    justifyContent: 'center',
+    left: 8,
+    maxWidth: 130,
+    position: 'absolute',
+    top: 0,
+  },
+  backIcon: {
+    borderBottomColor: '#FF2D55',
+    borderBottomWidth: 2,
+    borderLeftColor: '#FF2D55',
+    borderLeftWidth: 2,
+    height: 12,
+    marginLeft: 4,
+    marginRight: 1,
+    transform: [{ rotate: '45deg' }],
+    width: 12,
+  },
+  backText: {
+    color: '#FF2D55',
+    fontSize: 17,
+    fontWeight: '400',
+    lineHeight: 22,
+  },
+  rightButtons: {
+    alignItems: 'center',
+    bottom: 0,
+    flexDirection: 'row',
+    gap: 12,
+    position: 'absolute',
+    right: 8,
+    top: 0,
+  },
+  iconButton: {
+    alignItems: 'center',
+    height: 44,
+    justifyContent: 'center',
+    width: 28,
+  },
+  plus: {
+    color: '#FF2D55',
+    fontSize: 30,
+    lineHeight: 34,
+  },
+});
